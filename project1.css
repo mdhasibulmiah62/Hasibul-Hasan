@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Cousine:wght@700&family=Inria+Serif:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,900&family=Nanum+Gothic:wght@700&family=Roboto+Slab:wght@400;500;900&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700;1,900&family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Cousine:wght@700&family=Inria+Serif:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,900&family=Nanum+Gothic:wght@700&family=Palanquin+Dark:wght@400;500;600;700&family=Roboto+Slab:wght@400;500;900&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700;1,900&family=Yusei+Magic&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Cousine:wght@700&family=Inria+Serif:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,900&family=Nanum+Gothic:wght@700&family=Palanquin+Dark:wght@400;500;600;700&family=Roboto+Slab:wght@400;500;900&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700;1,900&family=Shrikhand&family=Yusei+Magic&display=swap');
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Shrikhand', cursive;
+font-family: 'Palanquin Dark', sans-serif
+*/
+
+h1,h2,h3,h4,h5,h6,p,a{
+    color: white;
+    font-family:'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #08f1e5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #EEE;
+
+}
+.container{
+    max-width: 1000px;
+    background-color: #2d3130;
+    margin: 0 auto;
+    padding: 20px;
+ height: auto;
+}
+.profile-img{
+ width: 100px;
+ height: 100px;
+ border: 3px solid white;
+ border-radius: 50%; 
+ float: left;  
+}
+.my-bio{
+    float: left;
+    padding: 20px;
+}
+
+.my-bio h1{
+color:white;
+font-family: 'Montserrat', sans-serif;
+color: #08f1e5;
+}
+.my-bio h3{
+    color:white ;
+    font-family: 'Shrikhand', cursive;
+    color: #08f1e5;
+}
+
+.my-contact {
+    float: right;
+    padding: 20px;
+}
+
+.my-contact a {
+    text-decoration: none;font-family: 'Montserrat', sans-serif;    font-weight: bold;
+}
+
+.my-contact a:hover {
+    color: #13e3d9;
+    text-decoration: underline;
+}
+
+.my-div{
+    clear: both;
+}
+
+hr {
+    border: 2px solid #219185;
+    margin: 10px;
+    width: 100%;
+}
+.left-div {
+    float: left;
+    width: 30%;
+    /* padding: 20px; */
+}
+
+.right-div {
+    float: left;
+    width: 70%;
+}
+hr.common {
+    border: 1px solid #219185;
+    margin: 20px auto;
+}
+
+a.aa {
+    color: #07e77c;
+}
+a.aa:hover{
+    color: tomato;
+    text-decoration: none;
+}
+
+.education-tamplate-left {
+    float: left;
+    width: 45%;
+    /* margin: 2px; */
+}
+
+.education-tamplate-right {
+    float: right;
+    width: 45%;
+}
+
+a#pp {
+    font-size: 14px;
+    color: #26c5b9;
+}
+#vv{
+    color: #26c5b9;
+}
+
+footer.bottom-container {
+    background: #899d89;
+    padding: 20px;
+    text-align: center;
+}
+
+p.a4 {
+    margin-top: 20px;
+    color: #002b78;
+    font-family: 'Shrikhand';
+    font-weight: bold;
+    font-style: italic;
+}
+
+a.a1 {
+    text-decoration: none;
+    margin: 10px;
+}
+
+a.a2 {
+    text-decoration: none;
+    margin: 10px;
+}
+
+a.a3 {
+    text-decoration: none;
+    margin: 10px;
+}
+
+@media screen and (max-width:600px) {
+    .profile-img{
+        text-align: center;
+       margin-left: 45%;
+    }
+  
+    .container{
+        background-color: #151717;
+      
+    }
+}
